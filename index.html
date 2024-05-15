@@ -1,77 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FLIP CLOCK</title>
-  <link rel="stylesheet" href="css/style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CLOCK</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div id="app">
-    <div class="flip-clock-container">
-      <div class="flip-clock flip-clock-h">
-        <div class="digit digit-left">
-          <!-- ::before -->
-          <div class="card">
-            <div class="card-face card-face-front"></div>
-            <div class="card-face card-face-back"></div>
-          </div>
-          <!-- ::after -->
-        </div>
-        <div class="digit digit-right">
-          <!-- ::before -->
-          <div class="card">
-            <div class="card-face card-face-front"></div>
-            <div class="card-face card-face-back"></div>
-          </div>
-          <!-- ::after -->
-        </div>
-      </div>
-
-      <div class="colon">:</div>
-
-      <div class="flip-clock flip-clock-m">
-        <div class="digit digit-left">
-          <!-- ::before -->
-          <div class="card">
-            <div class="card-face card-face-front"></div>
-            <div class="card-face card-face-back"></div>
-          </div>
-          <!-- ::after -->
-        </div>
-        <div class="digit digit-right">
-          <!-- ::before -->
-          <div class="card">
-            <div class="card-face card-face-front"></div>
-            <div class="card-face card-face-back"></div>
-          </div>
-          <!-- ::after -->
-        </div>
-      </div>
-
-      <div class="colon">:</div>
-
-      <div class="flip-clock flip-clock-s">
-        <div class="digit digit-left">
-          <!-- ::before -->
-          <div class="card">
-            <div class="card-face card-face-front"></div>
-            <div class="card-face card-face-back"></div>
-          </div>
-          <!-- ::after -->
-        </div>
-        <div class="digit digit-right">
-          <!-- ::before -->
-          <div class="card">
-            <div class="card-face card-face-front"></div>
-            <div class="card-face card-face-back"></div>
-          </div>
-          <!-- ::after -->
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <script src="js/script.js"></script>
+		<section class="container">
+			<span id="hr1">0</span><span id="hr2">0</span>:
+			<span id="mn1">0</span><span id="mn2">0</span>:
+			<span id="sc1">0</span><span id="sc2">0</span>
+		</section>
+		<section>
+			<button id="changeBackgrou"></button>
+		</section>
+		<script src="script.js"></script>
 </body>
 </html>
