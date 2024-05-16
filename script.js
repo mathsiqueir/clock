@@ -23,7 +23,6 @@ const relogio = setInterval(function time(){
   sc1.textContent = scStr[0];
   sc2.textContent = scStr[1];
 
-})
 });
 
 function fixTime(time){
