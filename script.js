@@ -24,9 +24,10 @@ const relogio = setInterval(function time(){
   sc2.textContent = scStr[1];
 
 })
+});
 
 function fixTime(time){
+	
 	return time < 10 ? '0'+time : time.toString()
-}
 
  
