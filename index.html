@@ -4,14 +4,31 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>CLOCK</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" href="img/icons8-clock-cute-clipart-120.png" type="image/x-icon">
 </head>
 <body>
-		<section class="container">
-			<span id="hr1">0</span><span id="hr2">0</span>:
-			<span id="mn1">0</span><span id="mn2">0</span>:
-			<span id="sc1">0</span><span id="sc2">0</span>
-		</section>
-		<script src="script.js"></script>
+		<header>
+			<div class="btn-group">
+				<button class="btn btn-dark  btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+					Background
+				</button>
+				<ul class="dropdown-menu">
+					
+					<button class="btn btn-primary" id="btn">Aplicar</button>
+				</ul>
+			</div>
+		</header>
+			<section class="container" id="bg">
+				<div class="clock">
+					<span id="hr1">0</span><span id="hr2">0</span>:
+					<span id="mn1">0</span><span id="mn2">0</span>:
+					<span id="sc1">0</span><span id="sc2">0</span>
+				</div>
+			</section>
+		<script src="assets/script.js" type="module"></script>
+
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

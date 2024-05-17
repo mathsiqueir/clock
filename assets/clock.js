@@ -5,7 +5,7 @@ const mn2 = document.getElementById('mn2');
 const sc1 = document.getElementById('sc1');
 const sc2 = document.getElementById('sc2');
 
-const relogio = setInterval(function time(){
+export const relogio = setInterval(function time(){
 	let dateToday = new Date()
 
 	let hr = dateToday.getHours();
@@ -25,8 +25,9 @@ const relogio = setInterval(function time(){
 
 });
 
-function fixTime(time){
+export function fixTime(time){
 	
 	return time < 10 ? '0'+time : time.toString()
+}
 
- 
+
